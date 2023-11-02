@@ -8,6 +8,19 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Feedback Form</h1>
+	<form action="/action_page.php">
+		<label for="Name">Name:</label><br>
+		<input type="text" id="name" name="Name" minlength="3" maxlength="50" required><br>
+		<label for="Protfolio">Protfolio:</label><br>
+		<input type="url" id="protfolio" name="Protfolio" required><br>
+		<label for="Favorite Color">Favorite Color:</label><br>
+		<input type="color" id="favColor" name="Favorite Color"><br>
+		<label for="Likeness">Likeness:</label><br>
+		<input type="range" id="likeness" name="likeness" min="0" max="100"><br>
+		<input type="submit" value="Submit">
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
